@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+.container a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width:80%;
+    border-radius: 30px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: black;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+}
+.main{
+    background: url(https://images.pexels.com/photos/4482900/pexels-photo-4482900.jpeg?_gl=1*1v2b4nm*_ga*NDE3ODk4NzMyLjE3NjA1ODg5Mzc.*_ga_8JE65Q40S6*czE3NjEzNjk0MzIkbzUkZzEkdDE3NjEzNzAzMjMkajU5JGwwJGgw)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.btn1{
+    height: 48px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background: black;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+
+}
+h1{
+    font-weight: 700;
+}
+image{
+    width: 200px;
+    height: 200px;
+    border-radius:5px;
+
+
+}
+
+footer {
+    list-style-type: none;
+    background: #111;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+footer ul li a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.card  {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  justify-content: cente;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: 0.5s ease-in-out;
+
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+main{
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content:center;
+    row-gap: 20px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}
+ div image{
+    border-radius: 2px;
+}
+
+.card{
+    transform: rotateX('30 degre');
+}
